@@ -1,0 +1,61 @@
+header.landing {
+  position: relative;
+  /*background: url("../img/berlin_background.jpg");*/
+  height: auto;
+  width: auto;
+}
+
+
+header.landing .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+header.landing video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/*
+img.landing {
+  border-radius: 70%;
+  border:2px solid #fff;
+  height: 200px;
+  width: 200px;
+}
+*/
+
+header.landing .container {
+  position: relative;
+  z-index: 2;
+}
+
+blockquote.landing p { 
+  color: #ffffff; 
+  font-family: 'Merriweather', serif; 
+  font-size: 30px; font-weight: 300; 
+  line-height: 40px; 
+  margin: 0 30px 40px; 
+  text-align: center; 
+  text-shadow: #2a8d7b -1px -1px; 
+}
+
+blockquote.landing cite { 
+  color: #217969; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 12px; 
+  font-weight: bold; 
+  line-height: 12px; 
+  letter-spacing: 3px; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
