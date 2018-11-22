@@ -59,3 +59,24 @@ blockquote.landing cite {
   text-align: center; 
   text-transform: uppercase; 
 }
+
+nav p{
+  font: 1.2em/1em sans-serif;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+nav img{
+  border-radius: 70%;
+  border:2px solid #fff;
+}
+
+nav li {
+  font: 1.2em/1em sans-serif;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
