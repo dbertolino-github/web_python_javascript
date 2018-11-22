@@ -1,57 +1,78 @@
 <html>
 
     <head>
-        <title>Dario Bertolino</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-        <!-- Custom styles for this template -->
-        <link href="css/main.css" rel="stylesheet">
+      <title>Dario Bertolino personal web page</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous">
+      <!-- Custom styles for this template -->
+      <link href="css/main.css" rel="stylesheet">
     </head>
+
     <body>
 
-    <header class="landing">
-        <div class="overlay"></div>
-        <video autoplay="autoplay" muted="muted" loop="loop">
-          <source src="vid/airplane.mp4" type="video/mp4">
-        </video>
-        <div class="container">
-          <nav class="navbar fixed-top navbar-expand-lg justify-content-between">
-            <a class="navbar-brand"> 
-              <p>Dario Bertolino</p>
-              <img src="img/front_account.jpg" width="30" height="30" alt="">
-            </a>
-            <div >
-              <ul class="navbar-nav mr-auto">
-                <li href="#" class="nav-item">About</li>
-                <li href="#" class="nav-item">Relational skills</li>
-                <li href="#" class="nav-item">Computer skilss</li>
-                <li href="#" class="nav-item">Contact</li>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">Dario Bertolino</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Computer skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Relational skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
               </ul>
             </div>
-          </nav>
-        </div>
-        <div class="container h-100">
-          <div class="d-flex text-center h-100">
-            <div class="my-auto w-100 text-white">
-              <blockquote class="landing">
-                <p>
-                    "The face of a loved one is not stored once but in the order of thousands of times."
-                </p>
-                <cite>
-                    - from How to Create a mind, by Ray Kurzweil
-                </cite>
-              </blockquote>
+          </div>
+        </nav>
+
+        <header>
+          <div class="overlay"></div>
+          <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="vid/clouds.mp4" type="video/mp4">
+          </video>
+          <div class="container h-100">
+            <div class="d-flex text-center h-100">
+              <div class="my-auto w-100 text-white">
+                <p class="entry_phrase">The face of a loved one is not stored once, but on the order of thousands of times.</p>
+                <p class="citation">How to create a mind: The Secret of Human Thought Revealed, by Ray Kurzweil.</p>
+              </div>
             </div>
           </div>
-        </div>
-    </header>
-    
+        </header>
+
+        <section class="my-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 mx-auto">
+                <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
+                <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
+                <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
+                <p class="mb-0">
+                  Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     </body>
 </html>
