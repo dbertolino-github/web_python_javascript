@@ -56,7 +56,6 @@ p.entry_phrase {
   line-height: 40px; 
   margin: 0 30px 40px; 
   text-align: center; 
-  text-shadow: #2a8d7b -1px -1px;
 }
 
 p.citation{
@@ -67,6 +66,5 @@ p.citation{
   line-height: 12px; 
   letter-spacing: 3px; 
   text-align: center; 
-  text-shadow: #53b4a2 1px 1px; 
   text-transform: uppercase;
 }
